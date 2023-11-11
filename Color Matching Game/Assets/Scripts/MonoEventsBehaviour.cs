@@ -9,13 +9,11 @@ public class MonoEventsBehaviour : MonoBehaviour
     {
         awakeEvent.Invoke();
     }
-
     private void Start()
     {
         startEvent.Invoke();
     }
-
-    private void OnDisable()
+    private void Disable()
     {
         disableEvent.Invoke();
     }
