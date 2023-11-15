@@ -139,15 +139,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Circle
+      name: Little Pizza
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 9
+        y: 2
+        width: 116
+        height: 109
+      alignment: 9
+      pivot: {x: 0.46115988, y: 0.41821796}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 33, y: 128}
@@ -187,6 +187,27 @@ TextureImporter:
       bones: []
       spriteID: 18d3544e99f608ed0800000000000000
       internalID: -2413806693520163455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Pizza
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 132
+        width: 135
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef40b766e5ea3174aa772bb0708bcde5
+      internalID: 2093401677
       vertices: []
       indices: 
       edges: []
@@ -234,7 +255,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Circle: -2413806693520163455
+      Little Pizza: -2413806693520163455
+      Main Pizza: 2093401677
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

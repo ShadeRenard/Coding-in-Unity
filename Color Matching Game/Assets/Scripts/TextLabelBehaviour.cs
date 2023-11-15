@@ -1,6 +1,7 @@
+using System.Globalization;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Text))]
 public class TextLabelBehaviour : MonoBehaviour
@@ -15,11 +16,11 @@ public class TextLabelBehaviour : MonoBehaviour
 
   public void UpdateLabel(FloatData obj)
   {
-
+    label.text = obj.value.ToString(CultureInfo.InvariantCulture);
   }
 
   public void UpdateLabel(IntData obj)
   {
-
+    label.text = obj.value.ToString(CultureInfo.InvariantCulture);
   }
 }
