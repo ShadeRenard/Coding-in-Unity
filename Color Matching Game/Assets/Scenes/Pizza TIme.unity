@@ -1042,6 +1042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526746259}
   - component: {fileID: 526746258}
+  - component: {fileID: 526746260}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -1116,6 +1117,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &526746260
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526746257}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d71c6df3418f208448902a456bb8bb87, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &712842921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1167,7 +1189,7 @@ PrefabInstance:
     - target: {fileID: 2980759044433651590, guid: e708a83e75009e746adaac7fc6da9291, type: 3}
       propertyPath: idObj
       value: 
-      objectReference: {fileID: 11400000, guid: a75db2ab5f78dd94a8891cc4e9f5ef9c, type: 2}
+      objectReference: {fileID: 11400000, guid: 9ee96a82e5720a54dbaeb83f3c0004db, type: 2}
     - target: {fileID: 2980759044433651590, guid: e708a83e75009e746adaac7fc6da9291, type: 3}
       propertyPath: matchEvent.m_PersistentCalls.m_Calls.Array.size
       value: 5
